@@ -1,2 +1,0 @@
-2021-03-26 T 17:25:12 || System.NullReferenceException: Object reference not set to an instance of an object.
-   at ICAJ015.api.Controllers.ICAJ015001Controller.ICAJ015001(APICAJ015001MessageRequest parametrorequest) in C:\Users\henry\Desktop\INFORMACION_PWC\CODIGO\TRABAJO\CAMBIOS_ID_SESION_LOG\ICAJ015\ICAJ015.api\ICAJ015.api\Controllers\ICAJ015001Controller.cs:line 56
