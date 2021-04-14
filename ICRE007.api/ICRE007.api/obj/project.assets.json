@@ -6899,11 +6899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Interfaces_pwc\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
+      "projectUniqueName": "E:\\RepositorioInterfaces\\interfaces\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
       "projectName": "ICRE007.api",
-      "projectPath": "E:\\Interfaces_pwc\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
+      "projectPath": "E:\\RepositorioInterfaces\\interfaces\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "E:\\Interfaces_pwc\\ICRE007.api\\ICRE007.api\\obj\\",
+      "outputPath": "E:\\RepositorioInterfaces\\interfaces\\ICRE007.api\\ICRE007.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

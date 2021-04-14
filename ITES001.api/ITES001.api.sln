@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITES001.api", "ITES001.api\ITES001.api.csproj", "{E98C6516-CE55-459A-9611-863AA6A4F903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98C6516-CE55-459A-9611-863AA6A4F903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98C6516-CE55-459A-9611-863AA6A4F903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98C6516-CE55-459A-9611-863AA6A4F903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98C6516-CE55-459A-9611-863AA6A4F903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F7DEAE5-EE9B-432B-9C87-B1BA692F30E6}
+	EndGlobalSection
+EndGlobal
