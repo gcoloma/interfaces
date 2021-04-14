@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "02tql7a8Kyik2516Sc1xkBAHO0BqxAqJPc7zQoFynSYyzvxhCpJJGS//Y1/0sOSQC93DTcUy4ww4QMEiV6/l7Q==",
+  "dgSpecHash": "dTQsEpKfiZf1H2YcHXhh4FkPwx0P6d7vL/uTdwslVq7R4OTCT91WyMAwP1zyWbTd9DvesmAuQvNdrS7BGMFv2A==",
   "success": true,
-  "projectFilePath": "E:\\Interfaces_pwc\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
+  "projectFilePath": "E:\\RepositorioInterfaces\\interfaces\\ICRE007.api\\ICRE007.api\\ICRE007.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.10.0\\azure.core.1.10.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core.amqp\\1.0.0\\azure.core.amqp.1.0.0.nupkg.sha512",

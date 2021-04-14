@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Interfaces_pwc\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj": {}
+    "E:\\RepositorioInterfaces\\interfaces\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj": {}
   },
   "projects": {
-    "E:\\Interfaces_pwc\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj": {
+    "E:\\RepositorioInterfaces\\interfaces\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Interfaces_pwc\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj",
+        "projectUniqueName": "E:\\RepositorioInterfaces\\interfaces\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj",
         "projectName": "ICAJ002.api",
-        "projectPath": "E:\\Interfaces_pwc\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj",
+        "projectPath": "E:\\RepositorioInterfaces\\interfaces\\ICAJ002.api\\ICAJ002.api\\ICAJ002.api.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\Interfaces_pwc\\ICAJ002.api\\ICAJ002.api\\obj\\",
+        "outputPath": "E:\\RepositorioInterfaces\\interfaces\\ICAJ002.api\\ICAJ002.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

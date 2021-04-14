@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IVTA014.api", "IVTA014.api\IVTA014.api.csproj", "{45533944-D988-4D46-BC0B-078E341CF3FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45533944-D988-4D46-BC0B-078E341CF3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45533944-D988-4D46-BC0B-078E341CF3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45533944-D988-4D46-BC0B-078E341CF3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45533944-D988-4D46-BC0B-078E341CF3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C73A6AC-FE43-48D8-A5F7-4391E106F86F}
+	EndGlobalSection
+EndGlobal
