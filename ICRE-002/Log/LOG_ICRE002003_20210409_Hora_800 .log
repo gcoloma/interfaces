@@ -1,0 +1,27 @@
+2021-04-09 T 08:37:50 || System.UnauthorizedAccessException: Put token failed. status-code: 401, status-description: InvalidSignature: The token has an invalid signature..
+   at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.CreateSendingLinkAsync(String entityPath, String identifier, AmqpConnection connection, TimeSpan timeout, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpConnectionScope.OpenSenderLinkAsync(String entityPath, String identifier, TimeSpan timeout, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpSender.CreateLinkAndEnsureSenderStateAsync(TimeSpan timeout, CancellationToken cancellationToken)
+   at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.OnCreateAsync(TimeSpan timeout)
+   at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout)
+   at Microsoft.Azure.Amqp.Singleton`1.GetOrCreateAsync(TimeSpan timeout)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpSender.SendBatchInternalAsync(Func`1 messageFactory, TimeSpan timeout, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpSender.SendBatchInternalAsync(Func`1 messageFactory, TimeSpan timeout, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpSender.<>c__DisplayClass20_0.<<SendAsync>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation(Func`2 operation, TransportConnectionScope scope, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.ServiceBusRetryPolicy.RunOperation(Func`2 operation, TransportConnectionScope scope, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.Amqp.AmqpSender.SendAsync(IReadOnlyList`1 messages, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.ServiceBusSender.SendMessagesAsync(IEnumerable`1 messages, CancellationToken cancellationToken)
+   at Azure.Messaging.ServiceBus.ServiceBusSender.SendMessageAsync(ServiceBusMessage message, CancellationToken cancellationToken)
+   at ICRE_002.Infraestructure.Services.ManejadorRequest`1.EnviarMensajeAsync(String sesionId, String cadenaConexion, String nombreQueueRequest, T body) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Infraestructure\Services\ManejadorRequest.cs:line 29
+   at ICRE_002.Infraestructure.Services.ManejadorRequest`1.EnviarMensajeAsync(String sesionId, String cadenaConexion, String nombreQueueRequest, T body) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Infraestructure\Services\ManejadorRequest.cs:line 33
+   at ICRE_002.Controllers.ICRE002003Controller.ICRE002003(APICRE002003MessageRequest parametrorequest) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Controllers\ICRE002003Controller.cs:line 59
+2021-04-09 T 08:50:39 || System.InvalidOperationException: A sessionful message receiver cannot be created on an entity that does not require sessions. Ensure RequiresSession is set to true when creating a Queue or Subscription to enable sessionful behavior. TrackingId:d0661b1f-32bc-42fb-96ed-65e9061c8e29_B19, SystemTracker:pruebapwc:Queue:request, Timestamp:2021-04-09T13:50:39 TrackingId:d6af5742bb5845b8bb5e48643d6f1dfa_G23, SystemTracker:gateway7, Timestamp:2021-04-09T13:50:39
+   at Microsoft.Azure.ServiceBus.SessionClient.AcceptMessageSessionAsync(String sessionId, TimeSpan operationTimeout)
+   at ICRE_002.Infraestructure.Services.ManejadorResponse`1.RecibeMensajeSesion(String cadenaConexion, String nombreCola, String sesionId, Int32 segundos, Int32 intentos) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Infraestructure\Services\ManejadorResponse.cs:line 26
+   at ICRE_002.Controllers.ICRE002003Controller.ICRE002003(APICRE002003MessageRequest parametrorequest) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Controllers\ICRE002003Controller.cs:line 61
+2021-04-09 T 08:52:32 || System.InvalidOperationException: A sessionful message receiver cannot be created on an entity that does not require sessions. Ensure RequiresSession is set to true when creating a Queue or Subscription to enable sessionful behavior. TrackingId:d0661b1f-32bc-42fb-96ed-65e9061c8e29_B19, SystemTracker:pruebapwc:Queue:request, Timestamp:2021-04-09T13:52:32 TrackingId:6267eb9eace449038e935dc41db9072a_G50, SystemTracker:gateway7, Timestamp:2021-04-09T13:52:32
+   at Microsoft.Azure.ServiceBus.SessionClient.AcceptMessageSessionAsync(String sessionId, TimeSpan operationTimeout)
+   at ICRE_002.Infraestructure.Services.ManejadorResponse`1.RecibeMensajeSesion(String cadenaConexion, String nombreCola, String sesionId, Int32 segundos, Int32 intentos) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Infraestructure\Services\ManejadorResponse.cs:line 26
+   at ICRE_002.Controllers.ICRE002003Controller.ICRE002003(APICRE002003MessageRequest parametrorequest) in C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICRE-002\Controllers\ICRE002003Controller.cs:line 61
