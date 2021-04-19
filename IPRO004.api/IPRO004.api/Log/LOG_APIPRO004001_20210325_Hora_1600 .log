@@ -1,0 +1,2 @@
+2021-03-25 T 16:53:49 || System.NullReferenceException: Object reference not set to an instance of an object.
+   at IPRO004.api.Controllers.IPRO004001Controller.IPRO004001(APIPRO004001MessageRequest parametrorequest) in C:\Users\henry\Desktop\INFORMACION_PWC\CODIGO\TRABAJO\CAMBIOS_ID_SESION_LOG\IPRO004\IPRO004.api\IPRO004.api\Controllers\IPRO004001Controller.cs:line 62
