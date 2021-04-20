@@ -1,0 +1,82 @@
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csprojAssemblyReference.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.AssemblyInfoInputs.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.AssemblyInfo.cs
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csproj.CoreCompileInputs.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.exe
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.deps.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.runtimeconfig.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.runtimeconfig.dev.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.pdb
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Core.Amqp.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Messaging.ServiceBus.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\staticwebassets\ICAJ004.StaticWebAssets.Manifest.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\staticwebassets\ICAJ004.StaticWebAssets.xml
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\scopedcss\bundle\ICAJ004.styles.css
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.RazorTargetAssemblyInfo.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csproj.CopyComplete
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.pdb
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.genruntimeconfig.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.exe
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.deps.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.runtimeconfig.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.runtimeconfig.dev.json
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\ICAJ004.pdb
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Core.Amqp.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Azure.Messaging.ServiceBus.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.ServiceBus.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csprojAssemblyReference.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.AssemblyInfoInputs.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.AssemblyInfo.cs
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csproj.CoreCompileInputs.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\staticwebassets\ICAJ004.StaticWebAssets.Manifest.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\staticwebassets\ICAJ004.StaticWebAssets.xml
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\scopedcss\bundle\ICAJ004.styles.css
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.RazorTargetAssemblyInfo.cache
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.csproj.CopyComplete
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.dll
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.pdb
+C:\Users\Enrique\Desktop\PROYECTOS TERMINADOS\PROYECTOS TERMINADOS 100%\ICAJ004 - TERMINADO\ICAJ004\obj\Debug\netcoreapp3.1\ICAJ004.genruntimeconfig.cache
