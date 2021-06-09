@@ -9,7 +9,8 @@ namespace ICAJ002.api.Models._001.Response
     public class APICAJ002001MessageResponse
     {
         public List<APCustPaymModeTable> CustPaymModeTableList { get; set; } // Listado de Formas de Pago
-        public string StatusId { get; set; } //Estado del registro 1=OK; 0=ERROR
-        public List<string> ErrorList { get; set; } //Detalle del error
+        public Boolean StatusId { get; set; } //Estado del registro 1=OK; 0=ERROR
+        //public List<string> ErrorList { get; set; } //Detalle del error
+        public string SessionId { get; set; } //Id de sesión
     }
 }

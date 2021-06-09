@@ -28,7 +28,7 @@ namespace ICAJ002.api.Infraestructura.Servicios
                 ServiceBusMessage message = new ServiceBusMessage(JsonConvert.SerializeObject(body));
                 message.SessionId = sesionId;
                 message.ContentType = "application/json";
-                //   message.TimeToLive = TimeSpan.FromMinutes(2);
+               //   message.TimeToLive = TimeSpan.FromMinutes(2);
 
                 // send the message
                 await sender.SendMessageAsync(message);

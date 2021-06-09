@@ -11,9 +11,9 @@ namespace ICRE007.api.Models._001.Request
         // 001 consulta de grupos de Clientes
         public string DataAreaId { get; set; }//Id de la compañía 
 
-        public Prioridad prioridad { get; set; }//Prioridad 
+        public string prioridad { get; set; }//Prioridad 
 
-        public Guid SessionId { get; set; }//Id de sesión
+        public string SessionId { get; set; }//Id de sesión Guid
     }
 }
 

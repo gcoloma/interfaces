@@ -1,6 +1,7 @@
 using ISAC001.api.Infraestructura.Servicios;
 using ISAC001.api.Models._001.Request;
 using ISAC001.api.Models._001.Response;
+using ISAC001.api.Models.Homologacion;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,15 +30,16 @@ namespace ISAC001.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped(typeof(IManejadorRequestQueue<APISAC001001MessageRequestLegado>), typeof(ManejadorRequestQueue<APISAC001001MessageRequestLegado>));
-            services.AddScoped(typeof(IManejadorResponseQueue2<APISAC001001MessageResponseLegado>), typeof(ManejadorResponseQueue2<APISAC001001MessageResponseLegado>));
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
+            services.AddScoped(typeof(IManejadorRequestQueue<APISAC001001MessageRequest>), typeof(ManejadorRequestQueue<APISAC001001MessageRequest>));
+            services.AddScoped(typeof(IManejadorResponseQueue2<APISAC001001MessageResponse>), typeof(ManejadorResponseQueue2<APISAC001001MessageResponse>));
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "ISAC001.api",
+                    Description = "Brinda información sobre el método expuesto para la creación de Activos en Dynamics 365FO",
                     Version = "v1"
                 });
             });
@@ -62,12 +64,15 @@ namespace ISAC001.api
             {
                 endpoints.MapControllerRoute(
                          name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+                      //   pattern: "{controller=Home}/{action=Index}/{id?}");
+                       
+                        pattern: "{action=Index}/{id?}");
+        });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Creación de Activos");
+                //options.RoutePrefix = string.Empty;
             });
 
         }

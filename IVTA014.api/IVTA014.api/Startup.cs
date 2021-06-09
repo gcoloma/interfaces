@@ -3,6 +3,7 @@ using IVTA014.api.Models._001.Request;
 using IVTA014.api.Models._001.Response;
 using IVTA014.api.Models._002.Request;
 using IVTA014.api.Models._002.Response;
+using IVTA014.api.Models.Homologacion;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +31,7 @@ namespace IVTA014.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
             services.AddScoped(typeof(IManejadorRequestQueue<APIVTA014001MessageRequest>), typeof(ManejadorRequestQueue<APIVTA014001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponseQueue2<APIVTA014001MessageResponse>), typeof(ManejadorResponseQueue2<APIVTA014001MessageResponse>));
             services.AddScoped(typeof(IManejadorRequestQueue<APIVTA014002MessageRequest>), typeof(ManejadorRequestQueue<APIVTA014002MessageRequest>));
@@ -39,8 +41,8 @@ namespace IVTA014.api
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "IVTA014.api",
+                    Description = "Envio de información para el cálculo de comisiones. Envio de recaudos",
                     Version = "v1"
                 });
             });
@@ -64,12 +66,13 @@ namespace IVTA014.api
             {
                 endpoints.MapControllerRoute(
                          name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
+                       //  pattern: "{controller=Home}/{action=Index}/{id?}");
+                         pattern: "{action=Index}/{id?}");
             });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Envío de información para el calculo de comisiones.");
             });
         }
     }

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\RepositorioInterfaces\interfaces\ICRE007.api\ICRE007.api\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-06-08T14:53:53.2276861Z;True|2021-06-08T09:18:38.6413485-05:00;True|2021-06-08T08:57:47.3426710-05:00;True|2021-06-07T18:42:36.8749391-05:00;True|2021-06-07T18:36:43.2399391-05:00;True|2021-05-31T12:58:39.5702644-05:00;True|2021-05-01T15:23:03.0474849-05:00;True|2021-04-27T16:45:57.9625744-05:00;True|2021-04-16T20:25:26.1547619-05:00;True|2021-04-16T20:04:03.2670825-05:00;</History>
+  </PropertyGroup>
+</Project>

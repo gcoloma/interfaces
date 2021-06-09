@@ -3,6 +3,7 @@ using ICRE007.api.Models._001.Request;
 using ICRE007.api.Models._001.Response;
 using ICRE007.api.Models._002.Request;
 using ICRE007.api.Models._002.Response;
+using ICRE007.api.Models.Homologa;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,17 +32,18 @@ namespace ICRE007.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped(typeof(IManejadorRequestQueue<APICRE007001MessageRequestLegado>), typeof(ManejadorRequestQueue<APICRE007001MessageRequestLegado>));
-            services.AddScoped(typeof(IManejadorResponseQueue2<APICRE007001MessageResponseLegado>), typeof(ManejadorResponseQueue2<APICRE007001MessageResponseLegado>));
-            services.AddScoped(typeof(IManejadorRequestQueue<APICRE007002MessageRequestLegado>), typeof(ManejadorRequestQueue<APICRE007002MessageRequestLegado>));
-            services.AddScoped(typeof(IManejadorResponseQueue2<APICRE007002MessageResponseLegado>), typeof(ManejadorResponseQueue2<APICRE007002MessageResponseLegado>));
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
+            services.AddScoped(typeof(IManejadorRequestQueue<APICRE007001MessageRequest>), typeof(ManejadorRequestQueue<APICRE007001MessageRequest>));
+            services.AddScoped(typeof(IManejadorResponseQueue2<APICRE007001MessageResponse>), typeof(ManejadorResponseQueue2<APICRE007001MessageResponse>));
+            services.AddScoped(typeof(IManejadorRequestQueue<APICRE007002MessageRequest>), typeof(ManejadorRequestQueue<APICRE007002MessageRequest>));
+            services.AddScoped(typeof(IManejadorResponseQueue2<APICRE007002MessageResponse>), typeof(ManejadorResponseQueue2<APICRE007002MessageResponse>));
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "ICRE007.api",
+                    Description = "Consulta de Grupos de clientes y Perfiles de asiento contable de clientes en Dynamics 365FO, los cuales deberán ser consumidos por el cliente desde la capa intermedia",
                     Version = "v1"
                 });
             });
@@ -66,12 +68,14 @@ namespace ICRE007.api
             {
                 endpoints.MapControllerRoute(
                          name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+                   //   pattern: "{controller=Home}/{action=Index}/{id?}");
+                        pattern: "/{action=Index}/{id?}");
+        });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Consulta de grupos de clientes y perfiles de contabilización");
+               // options.RoutePrefix = string.Empty;
             });
         }
     }

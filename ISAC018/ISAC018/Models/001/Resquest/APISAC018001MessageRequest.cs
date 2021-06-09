@@ -12,8 +12,8 @@ namespace ISAC018.Models._001.Resquest
 
         public string creditNoteNum { get; set; }//numero de la nota de credito
 
-        public string creditNoteDate { get; set; } //fecha nota de credito Datetime
-        public float creditNoteAmount { get; set; } //monto total de nota de credito
+        public DateTime creditNoteDate { get; set; } //fecha nota de credito Datetime
+        public decimal creditNoteAmount { get; set; } //monto total de nota de credito
         public string returnNum { get; set; } //numero de orden de devolucion
         public string invoiceNum { get; set; } //factura origen
         public string reasonRefund { get; set; } //motivo de nota de credito

@@ -1,6 +1,7 @@
 using ICAJ009.api.Infraestructura.Servicios;
 using ICAJ009.api.Models._001.Request;
 using ICAJ009.api.Models._001.Response;
+using ICAJ009.api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ICAJ009.api.Models.Homologacion;
 
 namespace ICAJ009.api
 {
@@ -29,6 +31,7 @@ namespace ICAJ009.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
             services.AddScoped(typeof(IManejadorRequestQueue<APICAJ009001MessageRequest>), typeof(ManejadorRequestQueue<APICAJ009001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponseQueue2<APICAJ009001MessageResponse>), typeof(ManejadorResponseQueue2<APICAJ009001MessageResponse>));
             services.AddSwaggerGen(options =>
@@ -36,8 +39,8 @@ namespace ICAJ009.api
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "ICAJ009.api",
+                    Description = "Emisión de una Nota de crédito de servicios por el valor correspondiente a los documentos promocionales (cuotas gratis, billete comprador, descuentos, etc.), utilizando la funcionalidad Estándar de MSD365FO llamada “Facturas de servicios”.",
                     Version = "v1"
                 });
             });
@@ -61,12 +64,15 @@ namespace ICAJ009.api
             {
                 endpoints.MapControllerRoute(
                          name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+                        // pattern: "{controller=Home}/{action=Index}/{id?}");
+                     
+                     pattern: "{action=Index}/{id?}");
+        });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Emisión de una Nota de crédito de servicios");
+                
             });
         }
     }

@@ -1,4 +1,3 @@
-E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.csprojAssemblyReference.cache
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.AssemblyInfoInputs.cache
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.AssemblyInfo.cs
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.dll
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.pdb
 E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.genruntimeconfig.cache
+E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\bin\Debug\netcoreapp3.1\RestSharp.dll
+E:\RepositorioInterfaces\interfaces\IVTA014.api\IVTA014.api\obj\Debug\netcoreapp3.1\IVTA014.api.csprojAssemblyReference.cache

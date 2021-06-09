@@ -3,8 +3,7 @@ using IPRO007.api.Models._001.Request;
 using IPRO007.api.Models._001.Response;
 using IPRO007.api.Models._002.Request;
 using IPRO007.api.Models._002.Response;
-//using IPRO007.api.Models.001.Request;
-//using IPRO007.api.Models.002.Request;
+using IPRO007.api.Models.Homologa;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,19 +33,20 @@ namespace IPRO007.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped(typeof(IManejadorRequestQueue<APIPRO007002MessageRequestLegado>), typeof(ManejadorRequestQueue<APIPRO007002MessageRequestLegado>));
-            services.AddScoped(typeof(IManejadorResponseQueue2<APIPRO007002MessageResponseLegado>), typeof(ManejadorResponseQueue2<APIPRO007002MessageResponseLegado>));
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
+            services.AddScoped(typeof(IManejadorRequestQueue<APIPRO007002MessageRequest>), typeof(ManejadorRequestQueue<APIPRO007002MessageRequest>));
+            services.AddScoped(typeof(IManejadorResponseQueue2<APIPRO007002MessageResponse>), typeof(ManejadorResponseQueue2<APIPRO007002MessageResponse>));
 
             //
-            services.AddScoped(typeof(IManejadorRequestQueue<APIPRO007001MessageRequestLegado>), typeof(ManejadorRequestQueue<APIPRO007001MessageRequestLegado>));
-            services.AddScoped(typeof(IManejadorResponseQueue2<APIPRO007001MessageResponseLegado>), typeof(ManejadorResponseQueue2<APIPRO007001MessageResponseLegado>));
+            services.AddScoped(typeof(IManejadorRequestQueue<APIPRO007001MessageRequest>), typeof(ManejadorRequestQueue<APIPRO007001MessageRequest>));
+            services.AddScoped(typeof(IManejadorResponseQueue2<APIPRO007001MessageResponse>), typeof(ManejadorResponseQueue2<APIPRO007001MessageResponse>));
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "IPRO007.api",
+                    Description = "Brinda información de la inserción de registros en el formulario de Pronósticos de la demanda",
                     Version = "v1"
                 });
             });
@@ -71,12 +71,13 @@ namespace IPRO007.api
             {
                 endpoints.MapControllerRoute(
                         name: "default",
-                        pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+                      //  pattern: "{controller=Home}/{action=Index}/{id?}");
+                        pattern: "{action=Index}/{id?}");
+        });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Gestión de Cobranza – Retail");
             });
         }
     }

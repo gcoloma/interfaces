@@ -10,9 +10,10 @@ namespace IPRO007.api.Models._001.Request
         // 001 actualizar , insertar pronostico de la demanda
         public string DataAreaId { get; set; }//Id de la compañía 
 
-        public string Sessionid { get; set; }//id de la sesion
+        public string SessionId { get; set; }//id de la sesion
 
         public List<APForecastSales> APForecastSalesList { get; set; } //Listado del pronostico de la demanda
+        public string Enviroment { get; set; } //Id del ambiente
 
     }
 }

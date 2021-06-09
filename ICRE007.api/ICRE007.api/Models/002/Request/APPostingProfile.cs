@@ -8,8 +8,7 @@ namespace ICRE007.api.Models._002.Request
 {
     public class APPostingProfile
     {
-
-        
+                
         public string PostingProfile { get; set; }
         public string Description { get; set; }
         public List<APCustGroup> CustGroupList { get; set; }

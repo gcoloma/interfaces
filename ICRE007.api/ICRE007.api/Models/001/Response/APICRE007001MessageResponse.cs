@@ -8,8 +8,10 @@ namespace ICRE007.api.Models._001.Response
 {
     public class APICRE007001MessageResponse
     {
-        public Guid SessionId { get; set; }//Id de sesión
-        public APCustGroup APCustGroupList { get; set; }//Listado de grupo Cliente
+        public string SessionId { get; set; }//Id de sesión Guid
+        public List<APCustGroup> CustGroupList { get; set; }//Listado de grupo Cliente
+        public bool StatusId { get; set; }//descripcion ok/error   Descripcion
+        public List<string> ErrorList { get; set; }//Listado de grupo Cliente List<APIPRO007001Error>
 
     }
 }
