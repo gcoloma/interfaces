@@ -1,0 +1,15 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+
+    "RutaLog": "C:\\Users\\henry\\Desktop\\INFORMACION_PWC\\CODIGO\\CAMBIOS_ID_SESION_LOG\\ICXP003.api\\FNC_ICXP003\\Log\\",
+    "ConectionStringRequest": "Endpoint=sb://solmon310516.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=23+PSVcFL8N/EhotGI/bqyAYJBOyz95OeYLAY0WmCGk=",
+    "ConectionStringResponse": "Endpoint=sb://solmon310516.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=23+PSVcFL8N/EhotGI/bqyAYJBOyz95OeYLAY0WmCGk=",
+    "Queue-Request": "cola1",
+    "Queue-Response": "cola2",
+    "TimeSleep": "8000"
+  }
+}

@@ -1,0 +1,7 @@
+2021-03-31 T 01:39:46 || System.ArgumentException: The connection string used for an Service Bus client must specify the Service Bus namespace host and either a Shared Access Key (both the name and value) OR a Shared Access Signature to be valid. (Parameter 'connectionString')
+   at Azure.Messaging.ServiceBus.ServiceBusConnection.ValidateConnectionStringProperties(ServiceBusConnectionStringProperties connectionStringProperties, String connectionStringArgumentName)
+   at Azure.Messaging.ServiceBus.ServiceBusConnection..ctor(String connectionString, ServiceBusClientOptions options)
+   at Azure.Messaging.ServiceBus.ServiceBusClient..ctor(String connectionString, ServiceBusClientOptions options)
+   at Azure.Messaging.ServiceBus.ServiceBusClient..ctor(String connectionString)
+   at IVTA_004.Infrastructure.Services.ManejadorRequest`1.EnviarMensajeAsync(String sesionId, String cadenaConexion, String nombreQueueRequest, T body) in C:\Users\Enrique\source\repos\IVTA-004\Infrastructure\Services\ManejadorRequest.cs:line 18
+   at IVTA_004.Controllers.IVTA004001Controller.APIVTA004001(APISAC020001MessageRequest parametrorequest) in C:\Users\Enrique\source\repos\IVTA-004\Controllers\IVTA004001Controller.cs:line 57

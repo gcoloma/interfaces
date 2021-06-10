@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICAJ001.api", "ICAJ001\ICAJ001.api.csproj", "{CD089F51-DCBE-4CDC-94C5-91B8FDCB2C2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD089F51-DCBE-4CDC-94C5-91B8FDCB2C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD089F51-DCBE-4CDC-94C5-91B8FDCB2C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD089F51-DCBE-4CDC-94C5-91B8FDCB2C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD089F51-DCBE-4CDC-94C5-91B8FDCB2C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF29C993-D457-4524-AF03-4E225B629076}
+	EndGlobalSection
+EndGlobal
