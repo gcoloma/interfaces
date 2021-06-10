@@ -14,8 +14,8 @@ namespace ITES001.api.Models._001.Request
         public string Motive { get; set; }//Motivo
         public string UserId { get; set; }//Usuario
         public string PaymMode { get; set; }//Forma de pago
-        public string PostedDate { get; set; }//Fecha y hora
-        public Decimal Amount { get; set; }//Monto
+        public DateTime PostedDate { get; set; }//Fecha y hora
+        public decimal Amount { get; set; }//Monto
         public Boolean StatusRegister { get; set; }//Ok éxito / false error
         public string MessageError { get; set; }//Error
 

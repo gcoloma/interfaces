@@ -1,4 +1,5 @@
 using ICAJ002.api.Infraestructura.Servicios;
+using ICAJ002.api.Models;
 using ICAJ002.api.Models._001.Request;
 using ICAJ002.api.Models._001.Response;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +31,7 @@ namespace ICAJ002.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
             services.AddScoped(typeof(IManejadorRequestQueue<APICAJ002001MessageRequest>), typeof(ManejadorRequestQueue<APICAJ002001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponseQueue2<APICAJ002001MessageResponse>), typeof(ManejadorResponseQueue2<APICAJ002001MessageResponse>));
             services.AddSwaggerGen(options =>
@@ -37,8 +39,8 @@ namespace ICAJ002.api
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "ICAJ002.api",
+                    Description = "Brinda información sobre el método expuesto a través del Web Services y Colas en Azure Bus para la exposición del maestro de formas de pago en Dynamics 365FO ",
                     Version = "v1"
                 });
             });
@@ -62,13 +64,15 @@ namespace ICAJ002.api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                         name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
+                        name: "default",
+                         //pattern: "{controller=Home}/{action=Index}/{id?}");
+                         pattern: "{action=Index}/{id?}");
             });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Exposición del maestro de formas de pago");
+                
             });
         }
     }

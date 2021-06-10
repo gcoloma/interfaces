@@ -25,7 +25,6 @@ E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\bin\Debug\netcoreapp
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
-E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.csprojAssemblyReference.cache
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.AssemblyInfoInputs.cache
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.AssemblyInfo.cs
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.dll
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.pdb
 E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.genruntimeconfig.cache
+E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\bin\Debug\netcoreapp3.1\RestSharp.dll
+E:\RepositorioInterfaces\interfaces\ICAJ009.api\ICAJ009.api\obj\Debug\netcoreapp3.1\ICAJ009.api.csprojAssemblyReference.cache

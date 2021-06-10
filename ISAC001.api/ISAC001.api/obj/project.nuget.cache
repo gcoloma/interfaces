@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SRxu1b9TLORQZOZYvMbuMi7vlDXtMNO8IfXvfexrVlEze8VMdPBtSfemLUY7AkoonV2EvTMsSDd6XG1ZORGUjQ==",
+  "dgSpecHash": "KZ+j+HqUdbhNXgrMutqGdZagV8dygX6BYlqsMfljwe40N/dYwzdOjxqGyoWPibvM7pHpZYMfR9adcTZVuImlZA==",
   "success": true,
-  "projectFilePath": "E:\\Interfaces_pwc\\ISAC001.api\\ISAC001.api\\ISAC001.api.csproj",
+  "projectFilePath": "E:\\RepositorioInterfaces\\interfaces\\ISAC001.api\\ISAC001.api\\ISAC001.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.10.0\\azure.core.1.10.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core.amqp\\1.0.0\\azure.core.amqp.1.0.0.nupkg.sha512",
@@ -25,6 +25,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\restsharp\\106.11.8-alpha.0.2\\restsharp.106.11.8-alpha.0.2.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

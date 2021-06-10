@@ -7,8 +7,8 @@ namespace ISAC001.api.Models._001.Response
 {
     public class APISAC001001MessageResponse
     {
-        public Guid SessionId { get; set; }//Id de sesión
-        public string DescriptionId { get; set; }//Descripción trnsaccion
+        public string SessionId { get; set; }//Id de sesión Guid
+        public string StatusId { get; set; }//Descripción trnsaccion
         public List<string> ErrorList { get; set; }//Detalle del error
 
     }

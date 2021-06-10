@@ -11,10 +11,11 @@ namespace ICRE007.api.Models._002.Request
         // 002 consulta de perfiles de asiento contable de Clientes
         public string DataAreaId { get; set; }//Id de la compañía 
 
-        public Prioridad prioridad { get; set; }//Prioridad 
+        public string prioridad { get; set; }//Prioridad 
 
-        public Guid SessionId { get; set; }//Id de sesión
+        public string SessionId { get; set; }//Id de sesión //Guid
+        public string Enviroment { get; set; } //Id del ambiente
     }
-    public enum Prioridad { Bajo = 0, Medio = 1, Alto = 2 }
+   // public enum Prioridad { Bajo = 0, Medio = 1, Alto = 2 }
 }
 

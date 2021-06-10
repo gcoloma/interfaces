@@ -8,6 +8,6 @@ namespace ICRE007.api.Models._001.Request
     public class APCustGroup
     {
         public string CustGroupId { get; set; }
-        public string Descriptions { get; set; }
+        public string Description { get; set; }
     }
 }

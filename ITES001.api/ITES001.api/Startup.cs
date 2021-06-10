@@ -1,6 +1,7 @@
 using ITES001.api.Infraestructura.Servicios;
 using ITES001.api.Models._001.Request;
 using ITES001.api.Models._001.Response;
+using ITES001.api.Models.Homologa;
 using Microex.Swagger.SwaggerGen.Application;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,6 +32,7 @@ namespace ITES001.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped(typeof(IHomologacionService<ResponseHomologa>), typeof(HomologacionService<ResponseHomologa>));
             services.AddScoped(typeof(IManejadorRequestQueue<APITES001001MessageRequest>), typeof(ManejadorRequestQueue<APITES001001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponseQueue2<APITES001001MessageResponse>), typeof(ManejadorResponseQueue2<APITES001001MessageResponse>));
             services.AddSwaggerGen(options =>
@@ -38,8 +40,8 @@ namespace ITES001.api
                 options.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Swagger Demo API",
-                    Description = "Demo API",
+                    Title = "ITES001.api",
+                    Description = "Muestra la información de las transacciones pagadas al Banco de Guayaquil",
                     Version = "v1"
                 });
             });
@@ -63,12 +65,13 @@ namespace ITES001.api
             {
                 endpoints.MapControllerRoute(
                          name: "default",
-                         pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+                        // pattern: "{controller=Home}/{action=Index}/{id?}");
+                            pattern: "{action=Index}/{id?}");
+        });
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Liquidación de Multas y matrículas de motos(Banco Guayaquil).");
             });
         }
     }

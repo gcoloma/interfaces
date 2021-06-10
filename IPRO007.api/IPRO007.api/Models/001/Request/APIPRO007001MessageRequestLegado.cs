@@ -13,6 +13,7 @@ namespace IPRO007.api.Models._001.Request
         public string SessionId { get; set; }//id de la sesion
 
         public List<APForecastSales> APForecastSalesList { get; set; } //Listado del pronostico de la demanda
+        public string Enviroment { get; set; } //Id del ambiente
 
     }
 }

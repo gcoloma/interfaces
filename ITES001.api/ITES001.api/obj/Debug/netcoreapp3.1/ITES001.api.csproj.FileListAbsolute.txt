@@ -44,3 +44,5 @@ E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\obj\Debug\netcoreapp
 E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\obj\Debug\netcoreapp3.1\ITES001.api.dll
 E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\obj\Debug\netcoreapp3.1\ITES001.api.pdb
 E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\obj\Debug\netcoreapp3.1\ITES001.api.genruntimeconfig.cache
+E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\bin\Debug\netcoreapp3.1\RestSharp.dll
+E:\RepositorioInterfaces\interfaces\ITES001.api\ITES001.api\obj\Debug\netcoreapp3.1\ITES001.api.csprojAssemblyReference.cache

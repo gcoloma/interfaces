@@ -22,7 +22,7 @@ namespace IVTA011.Infraestructura.Configuracion
 
 
 
-            string cadena = configuracion.GetSection("Data").GetSection("RutaLog").Value.ToString() + "" + NombreCadena + @".log";
+            string cadena = Environment.GetEnvironmentVariable("RutaLog") + "" + NombreCadena + @".log";  //configuracion.GetSection("Data").GetSection("RutaLog").Value.ToString() + "" + NombreCadena + @".log";
 
 
             if (!File.Exists(cadena))
