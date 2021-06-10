@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "RutaLog": "C:\\Log\\",
+    "ConectionStringRequest001": "Endpoint=sb://crecoscorp.servicebus.windows.net/;SharedAccessKeyName=RootListenSharedAccessKey;SharedAccessKey=cHwMILbcjBXUFWQjugAV9GNT0+kqPiR3QFFxMXVGDmk=",
+    "QueueRequest001": "apisac020002queuerequest",
+    "UriConsumoWebService": "http://192.168.82.13:82/ProcesosServicioTecnico/",
+    "MetodoWsUriConsumowebService": "/api/serviciotecnico/ActualizaRequisicion/",
+    "ASPNETCORE_ENVIRONMENT": "TEST",
+    "UriHomologacionDynamicSiac": "http://192.168.82.13:82/EquivalenciaDynamics",
+    "MetodoWsUriSiac": "/api/equivalencia/grupo/empresa/siac",
+    "MetodoWsUriAx": "/api/equivalencia/grupo/empresa/ax"
+
+  }
+}

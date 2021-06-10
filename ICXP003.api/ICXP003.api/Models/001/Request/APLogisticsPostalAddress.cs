@@ -13,9 +13,8 @@ namespace ICXP003.api.Models._001.Request
         public string CountryRegionId { get; set; }
         public string State { get; set; }
         public string City { get; set; }
-        public string Street { get; set; }
-        public List<APContactInfo> ContactInfoList { get; set; }
-        public Int64 RecId { get; set; }
+        public string Street { get; set; }        
+        public string District { get; set; }
     }
     public enum Roles { Invoice = 1, Delivery = 2, Business = 9 }
 }

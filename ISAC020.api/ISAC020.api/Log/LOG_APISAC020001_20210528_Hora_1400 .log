@@ -1,0 +1,8 @@
+2021-05-28 T 14:45:34 || No se retorno resultado de Dynamics
+2021-05-28 T 14:55:20 || Microsoft.Azure.ServiceBus.SessionLockLostException: The session lock has expired on the MessageSession. Accept a new MessageSession. TrackingId:0221b7ad000004800037096d60b14a6f_G15_B14, SystemTracker:crecoscorp:Queue:apisac020001queueresponse, Timestamp:2021-05-28T19:55:08
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.DisposeMessagesAsync(IEnumerable`1 lockTokens, Outcome outcome)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.CompleteAsync(IEnumerable`1 lockTokens)
+   at ISAC020.api.Infraestructure.Services.ManejadorResponse`1.RecibeMensajeSesion(String cadenaConexion, String nombreCola, String sesionId, Int32 segundos, Int32 intentos) in C:\Users\henry\Desktop\INFORMACION_PWC\CODIGO\CAMBIOS_ID_SESION_LOG\REVISADOS\PROBADOS AL 100%\PRUEBA CONECTIVIDAD OK\ISAC020.api\ISAC020.api\Infraestructure\Services\ManejadorResponse.cs:line 39
+   at ISAC020.api.Controllers.ISAC020001Controller.APISAC020001(APISAC020001MessageRequest parametrorequest) in C:\Users\henry\Desktop\INFORMACION_PWC\CODIGO\CAMBIOS_ID_SESION_LOG\REVISADOS\PROBADOS AL 100%\PRUEBA CONECTIVIDAD OK\ISAC020.api\ISAC020.api\Controllers\ISAC020001Controller.cs:line 71

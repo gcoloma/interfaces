@@ -13,7 +13,6 @@ namespace ICXP003.api.Models._001.Request
         public string CompanyName { get; set; }
         public APECTypePerson Type { get; set; }
         public string RelatedParty { get; set; }
-        public Int64 RecId { get; set; }
     }
     public enum APECIdentificationType { RUC = 1, CD = 2, Passaport = 3, CF = 4 }
     public enum APECTypePerson { Natural = 1, Legal = 2 }

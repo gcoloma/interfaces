@@ -9,7 +9,7 @@ namespace IPRO004.Models
     {
         public string DataAreaId { get; set; }
         public string Enviroment { get; set; }       
-        public string SesionId { get; set; }
+        public string SessionId { get; set; }
         public string ItemId { get; set; }
         public string BusinessUnit { get; set; }
         public StatusReceipt StatusReceipt { get; set; }

@@ -7,9 +7,9 @@ namespace ICXP003.api.Models._001.Response
 {
     public class APICXP003001MessageResponse
     {
-        public Guid SesionId { get; set; }
+        public Guid SessionId { get; set; }
         public List<APVendorContract> APVendorContractList { get; set; }
-        public string DescriptionId { get; set; }
+        public string StatusId { get; set; }
         public string[] ErrorList { get; set; }
 
     }

@@ -1,0 +1,15 @@
+2021-06-08 T 17:56:15 || Procesando Función
+2021-06-08 T 17:56:15 || Resultado:{"DataAreaId":"000001","Enviroment":"TEST","SessionId":"1ed8ef5f-981e-44ce-8125-e83228e10aff","APInventTransfer":{"TransferId":"TR-0000144","Status":0,"APInventTransferLineList":[{"ItemId":"1146RI","Qty":3.0,"InventLocationIdFrom":null,"InventLocationIdTo":null,"WMSLocationIdFrom":null,"WMSLocationIdTo":null}]}}
+2021-06-08 T 17:57:11 || Procesando Función
+2021-06-08 T 17:57:11 || Resultado:{"DataAreaId":"000001","Enviroment":"TEST","SessionId":"1ed8ef5f-981e-44ce-8125-e83228e10aff","APInventTransfer":{"TransferId":"TR-0000144","Status":0,"APInventTransferLineList":[{"ItemId":"1146RI","Qty":3.0,"InventLocationIdFrom":null,"InventLocationIdTo":null,"WMSLocationIdFrom":null,"WMSLocationIdTo":null}]}}
+2021-06-08 T 17:57:19 || Procesando Función
+2021-06-08 T 17:57:19 || Resultado:{"DataAreaId":"000001","Enviroment":"TEST","SessionId":"1ed8ef5f-981e-44ce-8125-e83228e10aff","APInventTransfer":{"TransferId":"TR-0000144","Status":0,"APInventTransferLineList":[{"ItemId":"1146RI","Qty":3.0,"InventLocationIdFrom":null,"InventLocationIdTo":null,"WMSLocationIdFrom":null,"WMSLocationIdTo":null}]}}
+2021-06-08 T 17:57:23 || Procesando Función
+2021-06-08 T 17:57:23 || Resultado:{"DataAreaId":"000001","Enviroment":"TEST","SessionId":"1ed8ef5f-981e-44ce-8125-e83228e10aff","APInventTransfer":{"TransferId":"TR-0000144","Status":0,"APInventTransferLineList":[{"ItemId":"1146RI","Qty":3.0,"InventLocationIdFrom":null,"InventLocationIdTo":null,"WMSLocationIdFrom":null,"WMSLocationIdTo":null}]}}
+2021-06-08 T 17:57:27 || Resultado:OK
+2021-06-08 T 17:57:27 || Resultado:OK
+2021-06-08 T 17:57:27 || Resultado:OK
+2021-06-08 T 17:57:27 || Resultado:OK
+2021-06-08 T 17:58:08 || Procesando Función
+2021-06-08 T 17:58:08 || Resultado:{"DataAreaId":"000001","Enviroment":"TEST","SessionId":"560acf0c-1bcc-422a-9d03-b386a57d9ae5","APInventTransfer":{"TransferId":"TR-0000144","Status":0,"APInventTransferLineList":[{"ItemId":"1146RI","Qty":3.0,"InventLocationIdFrom":"RPGYE","InventLocationIdTo":null,"WMSLocationIdFrom":null,"WMSLocationIdTo":null}]}}
+2021-06-08 T 17:58:10 || Resultado:OK

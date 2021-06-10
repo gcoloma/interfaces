@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    "RutaLog": "C:\\Users\\henry\\Desktop\\INFORMACION_PWC\\CODIGO\\CAMBIOS_ID_SESION_LOG\\REVISADOS\\PROBADOS AL 100%\\ICXP003.api\\ICXP003\\Log\\",
+    "ConectionStringRequest001": "Endpoint=sb://colomatic.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=SvD6Zm7SAuRYtafH7MaapiwDYfrqogb4b6Ke5ZOml7I=",
+    "QueueRequest001": "apicxp003003queuerequest",
+    "UriConsumoWebService": "http://192.168.82.13:82/ProcesosServicioTecnico/",
+    "MetodoWsUriConsumowebService": "/api/serviciotecnico/ActualizaRequisicion/",
+    "ASPNETCORE_ENVIRONMENT": "TEST"
+
+  }
+}

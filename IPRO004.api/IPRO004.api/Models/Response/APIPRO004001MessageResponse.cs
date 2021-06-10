@@ -7,7 +7,7 @@ namespace IPRO004.Models
 {
     public class APIPRO004001MessageResponse
     {
-        public Guid SesionId { get; set; }
+        public Guid SessionId { get; set; }
         public List<APInventTableIPRO004001> APInventTableList { get; set; }
     }
 }

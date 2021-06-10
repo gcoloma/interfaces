@@ -1,0 +1,2 @@
+2021-04-12 T 17:08:32 || System.NullReferenceException: Object reference not set to an instance of an object.
+   at ICRE004.api.Controllers.ICRE004001Controller.ICRE004001(APICRE004001MessageRequest parametrorequest) in C:\Users\henry\Desktop\INFORMACION_PWC\CODIGO\CAMBIOS_ID_SESION_LOG\ICRE004.api\ICRE004.api\Controllers\ICRE004001Controller.cs:line 58

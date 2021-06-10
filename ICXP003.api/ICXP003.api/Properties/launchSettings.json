@@ -14,8 +14,9 @@
       "launchBrowser": true,
       "launchUrl": "swagger/index.html",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "DEV04"
       }
+
     },
     "ICXP003.api": {
       "commandName": "Project",
@@ -23,7 +24,7 @@
       "launchUrl": "swagger/index.html",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "DEV04"
       }
     }
   }

@@ -9,8 +9,8 @@ namespace ICXP003.api.Models._001.Request
     public class APICXP003001MessageRequest
     {
         public string DataAreaId { get; set; }
-        public string SesionId { get; set; }
         public string Enviroment { get; set; }
-        public List<PCreateVendorContract> APCreateVendorContract { get; set; }
+        public string SessionId { get; set; }       
+        public List<APCreateVendorContract> APCreateVendorContract { get; set; }
     }
 }

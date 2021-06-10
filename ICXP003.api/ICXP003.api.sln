@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICXP003.api", "ICXP003.api\ICXP003.api.csproj", "{7A2A22E6-3083-4F0D-B4B0-4C2EC65AE3E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNC_ICXP003", "FNC_ICXP003\FNC_ICXP003.csproj", "{785C2F6E-1B86-416F-BE33-903DCB2EB4DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICXP003", "ICXP003\ICXP003.csproj", "{F3D35D8F-5230-4CB8-B57D-9FE567EF8AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{7A2A22E6-3083-4F0D-B4B0-4C2EC65AE3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2A22E6-3083-4F0D-B4B0-4C2EC65AE3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2A22E6-3083-4F0D-B4B0-4C2EC65AE3E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{785C2F6E-1B86-416F-BE33-903DCB2EB4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{785C2F6E-1B86-416F-BE33-903DCB2EB4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{785C2F6E-1B86-416F-BE33-903DCB2EB4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{785C2F6E-1B86-416F-BE33-903DCB2EB4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D35D8F-5230-4CB8-B57D-9FE567EF8AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D35D8F-5230-4CB8-B57D-9FE567EF8AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D35D8F-5230-4CB8-B57D-9FE567EF8AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D35D8F-5230-4CB8-B57D-9FE567EF8AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

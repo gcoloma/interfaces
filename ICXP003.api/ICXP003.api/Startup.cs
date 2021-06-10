@@ -1,8 +1,10 @@
+using ICXP003.api.Infraestructura.Servicios;
 using ICXP003.api.Infraestructure.Services;
 using ICXP003.api.Models._001.Request;
 using ICXP003.api.Models._001.Response;
 using ICXP003.api.Models._002.Request;
 using ICXP003.api.Models._002.Response;
+using ICXP003.api.Models.ResponseHomologacion;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +33,9 @@ namespace ICXP003.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddScoped(typeof(IManejadorHomologacion<ResponseHomologacion>), typeof(ManejadorHomologacion<ResponseHomologacion>));
+
             services.AddScoped(typeof(IManejadorRequest<APICXP003001MessageRequest>), typeof(ManejadorRequest<APICXP003001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponse<APICXP003001MessageResponse>), typeof(ManejadorResponse<APICXP003001MessageResponse>));
 

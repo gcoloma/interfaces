@@ -28,5 +28,5 @@ namespace ICXP003.api.Models._002.Request
 
     }
     public enum LedgerJournalACType { Ledger = 0, Cust = 1, Vend = 2, Project = 3, FixedAssets = 5, Bank = 6 }
-    public enum EnumNoYes  { N0 = 0, Si = 1}
+    public enum EnumNoYes { N0 = 0, Si = 1}
 }

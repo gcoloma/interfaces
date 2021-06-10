@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RyJ2t1A6qediq8xtGZUt0RiP8uqJpfxHmmj7g3yQf1PHZvZiWCZGtRQkJ2V3MxryNReZc4OKnxYsMQwpuom9Fg==",
+  "dgSpecHash": "EweWes0vWKJnG9MsxNtmathPjDT8VzMYXKB2Kuapy062zL8knCvFv8j9qlzv6ok8fbNIZIdVDuMwE8IgQMpP+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henry\\Desktop\\INFORMACION_PWC\\CODIGO\\CAMBIOS_ID_SESION_LOG\\IPRO004.api\\IPRO004.api\\IPRO004.api.csproj",
+  "projectFilePath": "C:\\Users\\henry\\Desktop\\INFORMACION_PWC\\CODIGO\\CAMBIOS_ID_SESION_LOG\\REVISADOS\\PROBADOS AL 100%\\PRUEBA CONECTIVIDAD OK\\IPRO004.api\\IPRO004.api\\IPRO004.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henry\\.nuget\\packages\\azure.core\\1.8.1\\azure.core.1.8.1.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\azure.core.amqp\\1.0.0\\azure.core.amqp.1.0.0.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\henry\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\henry\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\henry\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

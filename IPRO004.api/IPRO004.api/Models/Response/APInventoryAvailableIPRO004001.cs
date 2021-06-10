@@ -7,7 +7,7 @@ namespace IPRO004.Models
 {
     public class APInventoryAvailableIPRO004001
     {
-        public string configId { get; set; }
-        public double physicalAvail { get; set; }
+        public string inventStyleId { get; set; }
+        public decimal physicalAvail { get; set; }
     }
 }

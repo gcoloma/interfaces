@@ -17,5 +17,5 @@ namespace ICXP003.api.Models._001.Response
         public string FirstNameSearch { get; set; }
 
     }
-    //public enum VendorType2 { Persona = 1, Organizacion = 2 }
+   
 }

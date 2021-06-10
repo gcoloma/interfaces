@@ -1,4 +1,6 @@
+using IPRO004.api.Infraestructura.Servicios;
 using IPRO004.api.Infraestructure.Services;
+using IPRO004.api.Models.ResponseHomologacion;
 using IPRO004.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +31,7 @@ namespace IPRO004.api
         {
             services.AddControllers();
 
+            services.AddScoped(typeof(IManejadorHomologacion<ResponseHomologacion>), typeof(ManejadorHomologacion<ResponseHomologacion>));
             services.AddScoped(typeof(IManejadorRequest<APIPRO004001MessageRequest>), typeof(ManejadorRequest<APIPRO004001MessageRequest>));
             services.AddScoped(typeof(IManejadorResponse<APIPRO004001MessageResponse>), typeof(ManejadorResponse<APIPRO004001MessageResponse>));
 
@@ -68,7 +71,7 @@ namespace IPRO004.api
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger Demo API");
+                options.SwaggerEndpoint("../swagger/v1/swagger.json", "Swagger Demo API");
             });
         }
     }
