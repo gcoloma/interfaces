@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\henry\Desktop\INTERFACES\ICRE001</_PublishTargetUrl>
+    <History>True|2021-06-08T12:42:06.2737663Z;True|2021-06-04T16:47:42.5215968-05:00;True|2021-06-04T16:25:10.3671901-05:00;True|2021-06-04T16:22:55.5460515-05:00;True|2021-06-04T14:45:08.4100813-05:00;True|2021-06-04T13:27:37.5477318-05:00;True|2021-06-02T16:49:40.3167287-05:00;True|2021-05-02T16:32:05.8578411-05:00;True|2021-04-19T12:33:13.1645668-05:00;True|2021-04-15T09:26:19.1183761-05:00;</History>
+  </PropertyGroup>
+</Project>
